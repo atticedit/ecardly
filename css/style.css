@@ -1,8 +1,7 @@
 
 
 body {
-background-color: #C4C0BE
-
+  background-color: #c4c0be;
 }
 
 article a {
@@ -11,16 +10,19 @@ article a {
 
 .wrapper {
   background: url(../images/background_light.jpg) no-repeat;
-  background-position: top center;
-
-
 }
 
 header {
+<<<<<<< HEAD
   width:1000px;
   padding: 20px 0;
   margin-left: 100px;
 
+=======
+  width: 1000px;
+  padding: 20px 0;
+  margin-left: 100px;
+>>>>>>> 2f87aafff6706e30779ac2326ee4451c8194c8bd
 }
 
 header img {
@@ -29,48 +31,53 @@ header img {
 }
 
 .box {
+<<<<<<< HEAD
   /*height:500px;*/
   width:864px;
   /*background: blue;*/
+=======
+  width: 864px;
+  height: 1000px;
+>>>>>>> 2f87aafff6706e30779ac2326ee4451c8194c8bd
   margin-left: 100px;
   background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
 }
 
-.primary_image {
-
-}
-
-.primary_image img {
-  display: block;
-  float:left;
-  margin:10px;
-  width: 378px;
-  border: 1px solid lightgray;
-}
-
 article {
+/*added background-color to the article for debugging purposes*/
   /*background-color: lightblue;*/
-  height: 200px;
-  width: 300px;
-  float:left;
-}
-
-.clear {
-  clear:both;
-}
-
-article {
+  width: 410px;
+  height: 300px;
+  float: left;
   margin: 18px;
 }
 
+.primary_image img {
+<<<<<<< HEAD
+  display: block;
+  float:left;
+  margin:10px;
+=======
+>>>>>>> 2f87aafff6706e30779ac2326ee4451c8194c8bd
+  width: 378px;
+  float: left;
+  border: 1px solid lightgray;
+  margin: 18px;
+}
+
+.clear {
+  clear: both;
+}
+
 section {
-  background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
-  width:630px;
+  width: 630px;
   height: 500px;
   float: left;
+  background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
 }
 
 nav {
+<<<<<<< HEAD
   float:left;
   width: 234px;
   height: 500px;
@@ -91,3 +98,10 @@ nav ul {
 nav li {
   margin-bottom: 5px;
 }
+=======
+  width: 234px;
+  height: 500px;
+  background-color: #a9a9a9;
+  float: left;
+}
+>>>>>>> 2f87aafff6706e30779ac2326ee4451c8194c8bd
