@@ -1,0 +1,70 @@
+body {
+background-color: #C4C0BE
+
+}
+
+.wrapper {
+  background: url(../images/background_light.jpg) no-repeat;
+  background-position: top center;
+
+
+}
+
+header {
+  width:1000px;
+  margin-left: 200px;
+}
+
+header img {
+  width: 172px;
+  height: 68px;
+}
+
+.box {
+  /*height:500px;*/
+  width:864px;
+  /*background: blue;*/
+  margin-left: 200px;
+  background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
+}
+
+.primary_image {
+
+}
+
+.primary_image img {
+  display: block;
+  float:right;
+  margin:10px;
+  width: 378px;
+  border: 1px solid lightgray;
+}
+
+article {
+  /*background-color: lightblue;*/
+  height: 200px;
+  width: 300px;
+  float:left;
+}
+
+.clear {
+  clear:both;
+}
+
+article {
+  margin: 18px;
+}
+
+section {
+  background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
+  width:630px;
+  height: 500px;
+  float: left;
+}
+
+nav {
+  float:left;Working on a New Project
+  width: 234px;
+  height: 500px;
+  background: #A9A9A9;
+}
