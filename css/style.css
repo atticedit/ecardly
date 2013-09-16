@@ -1,7 +1,6 @@
-
-
 body {
   background-color: #c4c0be;
+  font-family: Helvetica, sans-serif;
 }
 
 article a {
@@ -10,6 +9,7 @@ article a {
 
 .wrapper {
   background: url(../images/background_light.jpg) no-repeat;
+  background-size: 100%;
 }
 
 header {
