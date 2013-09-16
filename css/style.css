@@ -1,6 +1,12 @@
+
+
 body {
 background-color: #C4C0BE
 
+}
+
+article a {
+  color: darkblue;
 }
 
 .wrapper {
@@ -12,7 +18,9 @@ background-color: #C4C0BE
 
 header {
   width:1000px;
-  margin-left: 200px;
+  padding: 20px 0;
+  margin-left: 100px;
+
 }
 
 header img {
@@ -24,7 +32,7 @@ header img {
   /*height:500px;*/
   width:864px;
   /*background: blue;*/
-  margin-left: 200px;
+  margin-left: 100px;
   background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
 }
 
@@ -34,7 +42,7 @@ header img {
 
 .primary_image img {
   display: block;
-  float:right;
+  float:left;
   margin:10px;
   width: 378px;
   border: 1px solid lightgray;
@@ -63,8 +71,23 @@ section {
 }
 
 nav {
-  float:left;Working on a New Project
+  float:left;
   width: 234px;
   height: 500px;
   background: #A9A9A9;
+}
+
+nav h4 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 10px;
+}
+
+nav li {
+  margin-bottom: 5px;
 }
