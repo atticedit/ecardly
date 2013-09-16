@@ -13,16 +13,9 @@ article a {
 }
 
 header {
-<<<<<<< HEAD
-  width:1000px;
-  padding: 20px 0;
-  margin-left: 100px;
-
-=======
   width: 1000px;
   padding: 20px 0;
   margin-left: 100px;
->>>>>>> 2f87aafff6706e30779ac2326ee4451c8194c8bd
 }
 
 header img {
@@ -31,14 +24,8 @@ header img {
 }
 
 .box {
-<<<<<<< HEAD
-  /*height:500px;*/
-  width:864px;
-  /*background: blue;*/
-=======
   width: 864px;
   height: 1000px;
->>>>>>> 2f87aafff6706e30779ac2326ee4451c8194c8bd
   margin-left: 100px;
   background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
 }
@@ -53,12 +40,7 @@ article {
 }
 
 .primary_image img {
-<<<<<<< HEAD
   display: block;
-  float:left;
-  margin:10px;
-=======
->>>>>>> 2f87aafff6706e30779ac2326ee4451c8194c8bd
   width: 378px;
   float: left;
   border: 1px solid lightgray;
@@ -77,11 +59,10 @@ section {
 }
 
 nav {
-<<<<<<< HEAD
-  float:left;
   width: 234px;
   height: 500px;
-  background: #A9A9A9;
+  background-color: #a9a9a9;
+  float: left;
 }
 
 nav h4 {
@@ -98,10 +79,3 @@ nav ul {
 nav li {
   margin-bottom: 5px;
 }
-=======
-  width: 234px;
-  height: 500px;
-  background-color: #a9a9a9;
-  float: left;
-}
->>>>>>> 2f87aafff6706e30779ac2326ee4451c8194c8bd
