@@ -3,8 +3,17 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+article p:nth-of-type(1) {
+  font-weight: bold;
+  color: #595856;
+}
+
 article a {
-  color: darkblue;
+  color: #2668b7;
 }
 
 .wrapper {
@@ -18,14 +27,8 @@ header {
   margin-left: 100px;
 }
 
-header img {
-  width: 172px;
-  height: 68px;
-}
-
 .box {
   width: 864px;
-  height: 1000px;
   margin-left: 100px;
   background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
 }
@@ -34,9 +37,13 @@ article {
 /*added background-color to the article for debugging purposes*/
   /*background-color: lightblue;*/
   width: 410px;
-  height: 300px;
   float: left;
   margin: 18px;
+}
+
+article p {
+  font-size: 13px;
+  color: #7f7d78;
 }
 
 .primary_image img {
@@ -53,14 +60,12 @@ article {
 
 section {
   width: 630px;
-  height: 500px;
   float: left;
   background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
 }
 
 nav {
   width: 234px;
-  height: 500px;
   background-color: #a9a9a9;
   float: left;
 }
