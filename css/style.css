@@ -1,0 +1,59 @@
+body {
+  background-color: #c4c0be;
+}
+
+.wrapper {
+  background: url(../images/background_light.jpg) no-repeat;
+  background-position: top center;
+}
+
+header {
+  width: 1000px;
+  margin-left: 100px;
+}
+
+header img {
+  width: 172px;
+  height: 68px;
+}
+
+.box {
+  width: 864px;
+  height: 1000px;
+  margin-left: 100px;
+  background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
+}
+
+article {
+/*added background-color to the article for debugging purposes*/
+  /*background-color: lightblue;*/
+  width: 410px;
+  height: 300px;
+  float: left;
+  margin: 18px;
+}
+
+.primary_image img {
+  width: 378px;
+  float: left;
+  border: 1px solid lightgray;
+  margin: 18px;
+}
+
+.clear {
+  clear: both;
+}
+
+section {
+  width: 630px;
+  height: 500px;
+  float: left;
+  background: url(../images/background_block_slice.jpg) repeat-x, #FFFFFF;
+}
+
+nav {
+  width: 234px;
+  height: 500px;
+  background-color: #a9a9a9;
+  float: left;
+}
